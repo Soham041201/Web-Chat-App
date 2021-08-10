@@ -1,0 +1,69 @@
+.left{
+    text-align: left;
+    background-color:blue;
+    float: left;
+    margin: 10px 10px 10px 0px;
+    height:max-content;
+    width:max-content;
+    
+    border-radius: 5px;
+    padding: 5px;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+    width: 300px;
+    clear: both;
+}
+.send{
+    margin-top: 10px;
+}
+.container{
+    overflow-y: scroll;
+    height: 50%;
+}
+#messageInput{border-radius: 5px;
+    padding: 3px;}
+.right{
+    text-align: right;
+    background-color:blue;
+    height: max-content;
+    width:max-content;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    padding: 5px;    
+    float: right;
+    clear: both;
+}
+.center{
+    text-align: center;
+    clear: both;
+}
+
+body{
+    scroll-behavior: smooth;
+    margin-top: 20px;
+    text-align: center;
+    background-color:skyblue;
+    height: 1000px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:white;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+
+    background-color:lightseagreen;
+    border-radius: 5px;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
